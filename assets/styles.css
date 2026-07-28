@@ -198,15 +198,6 @@ a {
   line-height: 0.86;
 }
 
-.hero h1 em {
-  display: block;
-  margin-top: 0.08em;
-  color: var(--signal-ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 400;
-  letter-spacing: -0.06em;
-}
-
 .hero-lead {
   max-width: 690px;
   margin: 0 0 42px;
