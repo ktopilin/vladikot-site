@@ -3,10 +3,14 @@
 Static website for [vladikot.com](https://vladikot.com), published with GitHub
 Pages.
 
-The site contains the VladiKot Studio landing page and the Words Widget privacy
-policy. It uses no analytics, cookies, JavaScript, or external fonts.
+The site contains a restrained VladiKot Studio information page and the Words
+Widget privacy policy. It uses no analytics, cookies, JavaScript, or external
+fonts.
 
-The visual system uses the approved bridge-cat mark, warm ivory paper, marine
-navy typography and signal colors from the saved brand palettes. Brand and
-favicon assets are generated in the Words Widget Android release-assets
-workflow and synchronized into this deployment repository.
+The published version intentionally avoids promotional landing-page copy and
+keeps only the studio identity, current product, status, contact and legal
+information. A fuller editorial concept is maintained separately in the
+product release assets and is not published.
+
+Brand and favicon assets are generated in the Words Widget Android
+release-assets workflow and synchronized into this deployment repository.
