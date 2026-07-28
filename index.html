@@ -3,116 +3,180 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="VladiKot Studio — независимая разработка полезных мобильных приложений.">
-    <meta name="theme-color" content="#0c1018">
-    <title>VladiKot Studio — мобильные приложения</title>
-    <link rel="icon" href="/assets/words-widget-icon.png" type="image/png">
+    <meta
+      name="description"
+      content="VladiKot Studio — независимая студия мобильных приложений из Владивостока."
+    >
+    <meta name="theme-color" content="#fff4df">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="VladiKot Studio">
+    <meta property="og:title" content="VladiKot Studio — приложения без цифрового шума">
+    <meta
+      property="og:description"
+      content="Независимая студия спокойных Android-приложений из Владивостока."
+    >
+    <meta property="og:url" content="https://vladikot.com/">
+    <meta property="og:image" content="https://vladikot.com/assets/social-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta
+      property="og:image:alt"
+      content="VladiKot Studio — приложения без цифрового шума"
+    >
+    <meta name="twitter:card" content="summary_large_image">
+    <title>VladiKot Studio — приложения без цифрового шума</title>
+    <link rel="canonical" href="https://vladikot.com/">
+    <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="/assets/styles.css">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">К содержанию</a>
+
     <header class="site-header">
       <div class="shell header-inner">
         <a class="brand" href="/" aria-label="VladiKot Studio — главная">
-          <span class="brand-mark" aria-hidden="true">VK</span>
-          <span>VladiKot Studio</span>
+          <span class="brand-symbol">
+            <img src="/assets/vladikot-mark.png" alt="" width="44" height="44">
+          </span>
+          <span class="brand-copy">
+            <strong>VladiKot</strong>
+            <small>studio / Vladivostok</small>
+          </span>
         </a>
         <nav class="nav" aria-label="Основная навигация">
-          <a class="nav-products" href="#products">Приложения</a>
-          <a href="#support">Поддержка</a>
+          <a href="#product">Приложение</a>
+          <a href="#principles">Принципы</a>
           <a href="/privacy/">Политика</a>
         </nav>
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="hero">
-        <div class="shell">
-          <p class="eyebrow">Независимая разработка</p>
-          <h1>Приложения, которыми хочется пользоваться самим.</h1>
-          <p class="hero-copy">
-            VladiKot Studio создаёт понятные мобильные инструменты для реальных
-            повседневных задач — без лишней сложности и навязчивых решений.
-          </p>
-          <div class="actions">
-            <a class="button button-primary" href="#products">Посмотреть приложения</a>
-            <a class="button" href="mailto:support@vladikot.com">Написать в поддержку</a>
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="edition-mark">VLK—001 / независимая мобильная студия</p>
+            <h1>
+              Полезные приложения.
+              <em>Без цифрового шума.</em>
+            </h1>
+            <p class="hero-lead">
+              Проектируем спокойные Android-инструменты для повседневных задач:
+              ясные с первого экрана, полезные каждый день и работающие без
+              обязательной регистрации.
+            </p>
+            <a class="arrow-link" href="#product">
+              Смотреть первый продукт
+              <span aria-hidden="true">↘</span>
+            </a>
           </div>
+
+          <aside class="signal-board" aria-label="VladiKot Studio, Владивосток">
+            <div class="signal-mark">
+              <img src="/assets/vladikot-mark.png" alt="" width="640" height="640">
+            </div>
+            <div class="signal-caption">
+              <span>43°07′ N</span>
+              <strong>Мост между идеей и ежедневной привычкой</strong>
+              <span>131°53′ E</span>
+            </div>
+          </aside>
         </div>
       </section>
 
-      <section class="section" id="products">
+      <section class="product-section" id="product" aria-labelledby="product-title">
         <div class="shell">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Первый продукт</p>
-              <h2>Words Widget</h2>
-            </div>
-            <p>
-              Английские слова всегда перед глазами — прямо на главном экране
-              Android.
-            </p>
-          </div>
+          <header class="section-masthead">
+            <p>Продукт / 01</p>
+            <h2 id="product-title">Words Widget</h2>
+            <p class="section-note">Android · готовится к публикации в RuStore</p>
+          </header>
 
-          <article class="product-card">
-            <div class="product-copy">
-              <span class="status">Скоро в RuStore</span>
-              <h3>Учите слова небольшими шагами</h3>
-              <p>
-                Быстро добавляйте слова и фразы, собирайте свои наборы и
-                повторяйте их в виджете без необходимости каждый раз открывать
-                приложение.
-              </p>
-              <ul class="feature-list">
-                <li>быстрое добавление слов и переводов;</li>
-                <li>автоподборка по уровню и собственные наборы;</li>
-                <li>офлайн-словарь и настраиваемый Android-виджет.</li>
-              </ul>
-            </div>
+          <article class="product-feature">
             <div class="product-visual">
-              <img src="/assets/words-widget-icon.png" alt="Иконка приложения Words Widget" width="512" height="512">
+              <span class="axis-label axis-label-top">ежедневное повторение</span>
+              <img
+                src="/assets/words-widget-icon.png"
+                alt="Иконка приложения Words Widget"
+                width="512"
+                height="512"
+              >
+              <span class="axis-label axis-label-bottom">прямо на главном экране</span>
+            </div>
+
+            <div class="product-copy">
+              <p class="product-intro">
+                Английские слова остаются перед глазами, а обучение встраивается
+                в обычный день — без расписаний и лишних экранов.
+              </p>
+              <dl class="feature-ledger">
+                <div>
+                  <dt>01</dt>
+                  <dd>Быстрое добавление слов, фраз и переводов</dd>
+                </div>
+                <div>
+                  <dt>02</dt>
+                  <dd>Автоподборка по уровню и личные карточки в «Моих словах»</dd>
+                </div>
+                <div>
+                  <dt>03</dt>
+                  <dd>Офлайн-словарь и настраиваемый Android-виджет</dd>
+                </div>
+              </dl>
+              <p class="product-state">
+                <span aria-hidden="true"></span>
+                Первый релиз проходит финальную подготовку
+              </p>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section" aria-labelledby="principles-title">
-        <div class="shell">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Подход</p>
-              <h2 id="principles-title">В основе — практичность</h2>
-            </div>
-          </div>
-          <div class="values">
-            <article class="value-card">
-              <div class="value-number">01</div>
-              <h3>Реальная задача</h3>
-              <p>Каждый продукт начинается с потребности, знакомой самому разработчику.</p>
-            </article>
-            <article class="value-card">
-              <div class="value-number">02</div>
-              <h3>Спокойный интерфейс</h3>
-              <p>Только нужные действия, ясные состояния и внимание к деталям.</p>
-            </article>
-            <article class="value-card">
-              <div class="value-number">03</div>
-              <h3>Уважение к данным</h3>
-              <p>Прозрачное описание сетевых сервисов и минимум собираемой информации.</p>
-            </article>
-          </div>
+      <section class="principles-section" id="principles" aria-labelledby="principles-title">
+        <div class="shell principles-grid">
+          <header>
+            <p class="edition-mark">Рабочие принципы</p>
+            <h2 id="principles-title">Не добавлять то, что не помогает.</h2>
+          </header>
+
+          <ol class="principle-list">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>Офлайн по умолчанию</h3>
+                <p>Основной словарь и базовые сценарии работают без подключения.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>Без обязательного аккаунта</h3>
+                <p>Личные карточки и настройки остаются на устройстве пользователя.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Сеть — только по делу</h3>
+                <p>Внешние словари, реклама Free и RuStore Pay описаны открыто.</p>
+              </div>
+            </li>
+          </ol>
         </div>
       </section>
 
-      <section class="section" id="support">
-        <div class="shell">
-          <div class="support-card">
-            <div>
-              <p class="eyebrow">Поддержка</p>
-              <h2>Есть вопрос или идея?</h2>
-              <p>Напишите нам. Ответим по работе приложений, покупкам и обработке данных.</p>
-            </div>
-            <a class="support-email" href="mailto:support@vladikot.com">support@vladikot.com</a>
-          </div>
+      <section class="contact-section" id="support" aria-labelledby="contact-title">
+        <div class="shell contact-grid">
+          <p class="contact-index">Связь / 24—48 ч</p>
+          <h2 id="contact-title">Есть вопрос, идея или найденная шероховатость?</h2>
+          <a href="mailto:support@vladikot.com">
+            support@vladikot.com
+            <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </section>
     </main>
@@ -120,12 +184,12 @@
     <footer class="site-footer">
       <div class="shell footer-grid">
         <p class="legal">
-          © 2026 VladiKot Studio · ИП Топилин Константин Витальевич<br>
-          ИНН 251301155977 · ОГРНИП 326253600080559
+          © 2026 VladiKot Studio<br>
+          ИП Топилин Константин Витальевич · ИНН 251301155977 · ОГРНИП 326253600080559
         </p>
         <div class="footer-links">
           <a href="/privacy/">Политика конфиденциальности</a>
-          <a href="mailto:support@vladikot.com">Поддержка</a>
+          <a href="#main-content">Наверх ↑</a>
         </div>
       </div>
     </footer>
