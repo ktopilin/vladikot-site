@@ -8,7 +8,7 @@
   <meta property="og:type" content="article">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:title" content="Политика конфиденциальности Words Widget EN↔RU — VladiKot Studio">
-  <meta property="og:description" content="Локальные данные, Android Backup, словарные сервисы, реклама и RuStore Pay.">
+  <meta property="og:description" content="Локальные данные, Android Backup, системное озвучивание, уведомления, словарные сервисы и RuStore Pay.">
   <meta property="og:url" content="https://vladikot.com/apps/words-widget/en-ru/privacy/">
   <link rel="canonical" href="https://vladikot.com/apps/words-widget/en-ru/privacy/">
   <title>Политика конфиденциальности Words Widget EN↔RU — VladiKot Studio</title>
@@ -86,7 +86,7 @@
     <header>
       <p class="edition">Приложение · Words Widget · Android EN↔RU · RuStore</p>
       <h1>Политика конфиденциальности Words Widget</h1>
-      <p class="meta">Редакция для версии 1.1.0 от 16 августа 2026 года</p>
+      <p class="meta">Редакция для версии 1.2.0 от 21 августа 2026 года</p>
     </header>
 
     <section>
@@ -98,8 +98,9 @@
     </section>
 
     <section>
-      <h2>1. Контакт</h2>
+      <h2>1. Оператор и контакт</h2>
       <div class="notice">
+        <p>Оператор приложения: <strong>индивидуальный предприниматель Топилин Константин Витальевич</strong>, ИНН <strong>251301155977</strong>, ОГРНИП <strong>326253600080559</strong>.</p>
         <p><strong>Words Widget</strong> выпускается под брендом <strong>VladiKot Studio</strong>.</p>
         <p>По вопросам конфиденциальности: <a href="mailto:support@vladikot.com">support@vladikot.com</a>.</p>
       </div>
@@ -112,14 +113,15 @@
         <li>слова, фразы, переводы, примеры, транскрипции и выбранные значения;</li>
         <li>именованные пользовательские наборы, набор по умолчанию, связи карточек с наборами и их порядок;</li>
         <li>состояние изучения, архив и восстанавливаемые «Удалённые»;</li>
-        <li>настройки приложения и конфигурации виджетов;</li>
+        <li>настройки приложения, плеера и конфигурации виджетов;</li>
+        <li>настройки карточек в уведомлениях: включение, режим, расписание, выбранные наборы и локальный журнал уже показанных карточек;</li>
         <li>локальный кэш права Pro и время последней проверки покупки.</li>
       </ul>
     </section>
 
     <section>
       <h2>3. Android Backup и перенос устройства</h2>
-      <p>При включённом системном резервном копировании Android пользовательские слова, наборы, прогресс и настройки могут попасть в облачную резервную копию или перенос между устройствами. Локальный кэш права Pro из резервной копии исключён: покупка восстанавливается проверкой через RuStore.</p>
+      <p>При включённом системном резервном копировании Android пользовательские слова, наборы, прогресс и настройки могут попасть в облачную резервную копию или перенос между устройствами. Локальный кэш права Pro и технический runtime-журнал карточек в уведомлениях из резервной копии исключены. Покупка восстанавливается проверкой через RuStore, а будущие уведомления планируются заново из настроек.</p>
       <p>Удаление локальной копии не гарантирует немедленное удаление ранее созданной резервной копии; её сроки и удаление определяет поставщик системного резервного копирования.</p>
     </section>
 
@@ -135,14 +137,20 @@
     </section>
 
     <section>
-      <h2>5. Реклама и техническая телеметрия</h2>
-      <p>В Free внутри приложения может показываться адаптивный баннер Яндекс Рекламы; в Android-виджете рекламы нет. Разрешение <code>AD_ID</code> и три разрешения Android AdServices удалены из сборки. Код приложения не передаёт Яндексу слова, переводы, названия наборов, e-mail, возраст, пол, геолокацию или пользовательские параметры таргетинга.</p>
-      <p>Yandex Mobile Ads и связанная AppMetrica всё равно могут обрабатывать технические сведения о приложении, устройстве, установке и install referrer, сети, другие доступные идентификаторы, рекламные события, ошибки и ANR для работы рекламы, измерения, безопасности и диагностики. Применяется <a href="https://yandex.ru/legal/confidential/">политика конфиденциальности Яндекса</a>.</p>
-      <p>После подтверждения Pro приложение не выполняет новые рекламные запросы и не показывает баннер. Если SDK был запущен до подтверждения, он может оставаться в текущем процессе до его завершения.</p>
+      <h2>5. Озвучивание и карточки в уведомлениях</h2>
+      <p>Плеер набора, виджет и действие «Озвучить» используют выбранный пользователем системный движок синтеза речи Android. Приложение передаёт ему текст слова и выбранных переводов. При установленных локальных голосах озвучивание может работать без сети. Сетевой движок или сетевой голос может передавать этот текст своему провайдеру; такая обработка регулируется настройками и политикой поставщика TTS. Words Widget не записывает микрофон и не отправляет созданное аудио разработчику.</p>
+      <p>Карточки в уведомлениях выключены по умолчанию. Разрешение Android на уведомления запрашивается только после явного включения. Выбранные наборы, расписание и журнал доставки хранятся локально; содержимое карточки передаётся Android для показа системного уведомления и может быть видно на экране блокировки в соответствии с настройками устройства. Приложение не запрашивает разрешение на точные будильники, поэтому Android может отложить событие. Показ уведомления сам по себе не отправляет слова в онлайн-словарь или RuStore Pay.</p>
+      <p>Системные media controls плеера также могут показывать текущее слово, перевод и название набора на экране блокировки. Видимость системных уведомлений и media controls регулируется настройками Android и устройства.</p>
     </section>
 
     <section>
-      <h2>6. Покупка Pro</h2>
+      <h2>6. Отсутствие рекламы и аналитики разработчика</h2>
+      <p>Words Widget не содержит рекламных SDK, не выполняет рекламных запросов и не показывает объявления — ни во Free, ни в Pro, ни в приложении, ни в виджете, ни в уведомлениях. Сборка не запрашивает разрешение <code>AD_ID</code> или разрешения Android AdServices.</p>
+      <p>Разработчик не использует собственную аналитику, систему отчётов о сбоях или сервер технической телеметрии. Это не относится к обработке данных внешними сервисами, описанной в других разделах: системным резервным копированием Android, выбранным TTS-провайдером, онлайн-словарными сервисами и RuStore Pay.</p>
+    </section>
+
+    <section>
+      <h2>7. Покупка Pro</h2>
       <p>Разовую покупку «Pro навсегда» и её восстановление обрабатывает RuStore Pay. Приложение передаёт product ID и получает состояние и идентификаторы покупки. Проверка восстановления выполняется при запуске приложения. RuStore Pay/RuStore SDK также может обрабатывать идентификатор установки, технические сведения, профиль текущего пользователя RuStore, метрики платёжного сценария и диагностические отчёты.</p>
       <p>Для выбора способа оплаты SDK проверяет наличие поддерживаемых банковских и платёжных приложений на устройстве. Он может обработать идентификаторы пакетов обнаруженных приложений и их количество, чтобы показать или запустить доступный способ оплаты и сформировать метрики платёжного сценария.</p>
       <p>Во встроенном платёжном интерфейсе пользователь может ввести номер и срок действия карты, CVV, имя держателя, а после покупки — e-mail для получения чека. Эти данные обрабатывают RuStore Pay и платёжные провайдеры RuStore; код Words Widget и разработчик их не получают.</p>
@@ -150,25 +158,26 @@
     </section>
 
     <section>
-      <h2>7. Хранение и удаление</h2>
+      <h2>8. Хранение и удаление</h2>
       <p>Локальные данные хранятся до действий пользователя. Раздел «Удалённые» — это восстанавливаемая корзина, а не окончательное удаление: карточки сохраняют источник, прогресс и выбранные переводы. Пользователь может восстановить их или выбрать «Удалить навсегда».</p>
-      <p>Удалить остальные локальные данные можно через системное действие Android «Очистить хранилище» либо удалив приложение. Резервные копии и телеметрия внешних провайдеров удаляются по их правилам и срокам. По вопросам обработки данных внешними сервисами следует обращаться к соответствующему провайдеру.</p>
+      <p>Удалить остальные локальные данные можно через системное действие Android «Очистить хранилище» либо удалив приложение. Резервные копии и данные, обработанные внешними провайдерами, удаляются по их правилам и срокам. По вопросам обработки данных внешними сервисами следует обращаться к соответствующему провайдеру.</p>
     </section>
 
     <section>
-      <h2>8. Передача и защита</h2>
+      <h2>9. Передача и защита</h2>
       <p>Разработчик не продаёт пользовательские данные. Сетевые запросы выполняются по HTTPS и ограничены сценариями, описанными выше. Приложение не запрашивает контакты, геолокацию, камеру, микрофон или доступ ко всем файлам.</p>
     </section>
 
     <section>
-      <h2>9. Изменения политики</h2>
+      <h2>10. Изменения политики</h2>
       <p>При изменении функций, SDK, внешних сервисов или обработки данных политика будет обновлена. Дата редакции указывается в начале документа.</p>
     </section>
 
     <section lang="en">
       <h2>English summary</h2>
-      <p>This policy applies only to the RuStore edition of the Android app Words Widget for the English ↔ Russian language pair (EN→RU and RU→EN), package <code>com.wordswidget.android</code>. It does not cover other language pairs, packages, apps, or VladiKot Studio websites.</p>
-      <p>Words Widget has no developer-operated account or cloud backend. Vocabulary, named user sets, learning state, deleted-item recovery state, settings, widget configuration, and a limited Pro entitlement cache are stored locally. Android Backup may contain user vocabulary and settings but excludes the entitlement cache. Optional online lookup can start before saving and can send a term or short phrase to MyMemory, Free Dictionary API, or Datamuse. Free may initialize Yandex Mobile Ads/AppMetrica for an in-app banner and technical telemetry; AD_ID and Android AdServices permissions are absent. After Pro is confirmed, the app makes no new banner load requests; an already initialized vendor SDK may remain in the process. RuStore Pay processes the one-time Pro purchase and restoration and may process installation, current RuStore profile, supported payment-app availability, payment details entered in its own UI, receipt e-mail, metrics, and diagnostic data. The developer does not receive card details. Privacy questions: <a href="mailto:support@vladikot.com">support@vladikot.com</a>.</p>
+      <p>This policy applies only to the RuStore edition of the Android app Words Widget for the English ↔ Russian language pair (EN→RU and RU→EN), package <code>com.wordswidget.android</code>. The operator is individual entrepreneur Konstantin Vitalievich Topilin, Russian taxpayer ID 251301155977, primary state registration number 326253600080559. It does not cover other language pairs, packages, apps, or VladiKot Studio websites.</p>
+      <p>Words Widget has no developer-operated account or cloud backend. Vocabulary, named user sets, learning state, deleted-item recovery state, playback and notification settings, widget configuration, and a limited Pro entitlement cache are stored locally. Android Backup may contain user vocabulary and settings but excludes the entitlement cache and notification runtime ledger. Optional online lookup can start before saving and can send a term or short phrase to MyMemory, Free Dictionary API, or Datamuse. Speech features pass card text to the Android TTS engine selected by the user; a network voice may process that text under its provider's policy. Study notifications are opt-in, their schedule is local, and card text may appear on the lock screen according to Android settings.</p>
+      <p>Words Widget contains no advertising SDKs, makes no ad requests, and shows no ads in either Free or Pro. The app does not use developer-operated analytics, crash reporting, or telemetry servers. This does not cover processing by Android Backup, the selected TTS provider, online dictionary services, or RuStore Pay, as described above. RuStore Pay processes the one-time Pro purchase and restoration and may process installation, current RuStore profile, supported payment-app availability, payment details entered in its own UI, receipt e-mail, metrics, and diagnostic data. The developer does not receive card details. Privacy questions: <a href="mailto:support@vladikot.com">support@vladikot.com</a>.</p>
     </section>
   </main>
 
