@@ -5,11 +5,12 @@ files live in the private Words Widget Android repository; the public deployment
 publishes only this site bundle.
 
 The site contains a restrained VladiKot Studio information page and app-specific
-privacy policies. The canonical Words Widget EN↔RU policy lives at
+privacy policies. The Words Widget EN↔RU RuStore policy lives at
 `/apps/words-widget/en-ru/privacy/`; `/privacy/` is its backward-compatible full
-copy for existing store links. Future applications and language pairs must use
-their own paths. The site uses no analytics, cookies, JavaScript, or external
-fonts.
+copy for existing store links. The AppGallery edition has its own policy at
+`/apps/words-widget/en-ru/appgallery/privacy/`. Future applications, language
+pairs, and materially different store editions must use their own paths. The
+site uses no analytics, cookies, JavaScript, or external fonts.
 
 The published version intentionally avoids promotional landing-page copy and
 keeps only the studio identity, current product, status, contact and legal
