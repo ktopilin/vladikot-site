@@ -1,0 +1,10 @@
+/* Shared header typography for the homepage and all privacy policies. */
+.site-header nav {
+  font: 500 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif;
+}
+
+.site-header nav a {
+  font: inherit;
+  letter-spacing: normal;
+}
