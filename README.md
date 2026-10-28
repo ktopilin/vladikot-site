@@ -8,17 +8,23 @@ The site contains a restrained VladiKot Studio information page and app-specific
 privacy policies. The Words Widget EN↔RU RuStore policy lives at
 `/apps/words-widget/en-ru/privacy/`; `/privacy/` is its backward-compatible full
 copy for existing store links. The AppGallery edition has its own policy at
-`/apps/words-widget/en-ru/appgallery/privacy/`. Future applications, language
+`/apps/words-widget/en-ru/appgallery/privacy/`. The ZoneBind / «Жесты к месту»
+RuStore policy lives at `/apps/zonebind/privacy/`. Future applications, language
 pairs, and materially different store editions must use their own paths. The
 site uses no analytics, cookies, JavaScript, or external fonts.
 
 The homepage presents Words Widget EN↔RU and «Жесты к месту» (ZoneBind) with
 their approved app icons, concise descriptions, availability and support contact.
-Both apps link to their published RuStore listings. Words Widget also links to
-its existing privacy policy. Add ZoneBind's app-specific policy link once its
-public destination is confirmed. Do not reuse the Words Widget policy for
-ZoneBind. The existing Words Widget policy still needs a separate
-review against version 2.0; the homepage update does not revise legal texts.
+Both apps link to their published RuStore listings and their own privacy
+policies. The Words Widget RuStore policy covers version 2.0, including local
+collection data, file transfer, system services and RuStore Pay. The ZoneBind
+policy covers touch zones, accessibility metadata, permissions, backup, Pay
+and Review SDK processing. Both use the owner-approved Russian text. The legacy
+`/privacy/` page is a byte-identical copy of the Words Widget policy. The retained
+AppGallery policy keeps its distinct store terms; owner identity is removed from
+both its Russian and English text. Public pages identify only VladiKot Studio
+and its support contact; do not add the owner's personal identity or registration
+details to content, metadata or document translations.
 
 For local preview, serve this directory as the HTTP root so root-relative assets
 and policy links resolve. The local two-app update is not published automatically;
