@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Политика конфиденциальности Android-приложения Words Widget EN↔RU для Huawei AppGallery.">
-  <meta name="theme-color" content="#f4f8f6">
+  <meta name="theme-color" content="#faf7f0">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:title" content="Политика конфиденциальности Words Widget EN↔RU для AppGallery — VladiKot Studio">
@@ -16,69 +16,18 @@
   <link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <style>
-    :root {
-      color-scheme: light;
-      --ink: #101820;
-      --muted: #52616a;
-      --paper: #ffffff;
-      --bg: #eef5f2;
-      --teal: #007d74;
-      --teal-soft: #d9f1ed;
-      --line: #d7e2de;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background:
-        radial-gradient(circle at 95% 0%, rgba(85, 222, 212, .20), transparent 27rem),
-        var(--bg);
-      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-    a { color: var(--teal); }
-    .skip-link { position: absolute; left: -9999px; }
-    .skip-link:focus { left: 16px; top: 12px; z-index: 10; padding: 10px 14px; background: white; }
-    .site-header {
-      border-bottom: 1px solid var(--line);
-      background: rgba(255, 255, 255, .88);
-      backdrop-filter: blur(16px);
-    }
-    .header-inner, .document, .footer-inner { width: min(960px, calc(100% - 40px)); margin: 0 auto; }
-    .header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 78px; }
-    .brand { color: var(--ink); font-size: 20px; font-weight: 800; text-decoration: none; }
-    .brand small { display: block; color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
-    nav { display: flex; gap: 22px; }
-    nav a { color: var(--ink); font-weight: 650; text-decoration: none; }
-    .document { margin-top: 38px; margin-bottom: 56px; padding: clamp(28px, 6vw, 68px); border: 1px solid var(--line); border-radius: 32px; background: var(--paper); box-shadow: 0 24px 70px rgba(27, 54, 48, .10); }
-    .edition { margin: 0 0 12px; color: var(--teal); font-size: 13px; font-weight: 800; letter-spacing: .10em; text-transform: uppercase; }
-    h1 { margin: 0; overflow-wrap: anywhere; font-size: clamp(32px, 7vw, 66px); line-height: 1.02; letter-spacing: -.04em; }
-    .meta { margin: 18px 0 0; color: var(--muted); }
-    section { padding-top: 34px; }
-    h2 { margin: 0 0 12px; font-size: clamp(24px, 4vw, 32px); line-height: 1.2; }
-    h3 { margin: 24px 0 10px; font-size: 21px; line-height: 1.3; }
-    p { margin: 10px 0; }
-    ul { margin: 12px 0; padding-left: 24px; }
-    li + li { margin-top: 7px; }
-    .notice { padding: 20px 24px; border-left: 5px solid var(--teal); border-radius: 14px; background: var(--teal-soft); }
-    .language-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 18px; }
-    code { padding: 2px 6px; border-radius: 6px; background: #eef3f1; font-size: .92em; }
-    .site-footer { border-top: 1px solid var(--line); background: #e6efeb; }
-    .footer-inner { padding: 30px 0 42px; color: var(--muted); font-size: 14px; }
-    @media (max-width: 640px) {
-      nav { display: none; }
-      .document { width: calc(100% - 20px); margin-top: 10px; padding: 28px 20px; border-radius: 22px; }
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/styles.css?v=20261028-2">
   <link rel="stylesheet" href="/assets/navigation.css?v=20261028-1">
 </head>
 <body>
   <a class="skip-link" href="#main-content">К содержанию</a>
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="/">VladiKot Studio<small>Words Widget</small></a>
-      <nav aria-label="Основная навигация">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="VladiKot Studio — главная">
+        <span class="brand-symbol"><img src="/assets/vladikot-mark-primary.png" alt="" width="46" height="46"></span>
+        <span class="brand-copy"><strong>VladiKot Studio</strong><small>Words Widget</small></span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
         <a href="/">Главная</a>
         <a href="mailto:support@vladikot.com">Поддержка</a>
       </nav>
@@ -86,10 +35,10 @@
   </header>
 
   <main class="document" id="main-content">
-    <header>
-      <p class="edition">Приложение · Words Widget · Android EN↔RU · Huawei AppGallery</p>
+    <header class="document-header">
+      <p class="edition-mark">Приложение · Words Widget · Android EN↔RU · Huawei AppGallery</p>
       <h1>Политика конфиденциальности Words Widget</h1>
-      <p class="meta">Редакция для версии 1.2.x от 22 августа 2026 года</p>
+      <p class="document-meta">Редакция для версии 1.2.x от 22 августа 2026 года</p>
       <div class="language-links" aria-label="Языки документа">
         <a href="#russian">Русский</a>
         <a href="#english" lang="en">English</a>
@@ -97,7 +46,7 @@
       </div>
     </header>
 
-    <section id="russian">
+    <section class="document-section" id="russian">
       <h2>Область действия</h2>
       <div class="notice">
         <p>Настоящая политика применяется только к Android-приложению <strong>Words Widget</strong> для языковой пары английский ↔ русский (направления EN→RU и RU→EN), package <code>com.wordswidget.android</code>, в редакции для Huawei AppGallery.</p>
@@ -105,7 +54,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>1. Оператор и контакт</h2>
       <div class="notice">
         <p><strong>Words Widget</strong> выпускается под брендом <strong>VladiKot Studio</strong>.</p>
@@ -113,7 +62,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>2. Что хранится на устройстве</h2>
       <p>Words Widget не требует регистрации и не использует собственный сервер разработчика. На устройстве могут храниться:</p>
       <ul>
@@ -126,13 +75,13 @@
       </ul>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>3. Android Backup и перенос устройства</h2>
       <p>При включённом системном резервном копировании Android пользовательские слова, наборы, прогресс и настройки могут попасть в облачную резервную копию или перенос между устройствами. Локальный статус Pro и технический runtime-журнал карточек в уведомлениях из резервной копии исключены. Покупка восстанавливается проверкой через Huawei AppGallery, а будущие уведомления планируются заново из настроек.</p>
       <p>Удаление локальной копии не гарантирует немедленное удаление ранее созданной резервной копии; её сроки и удаление определяет поставщик системного резервного копирования.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>4. Необязательный онлайн-поиск</h2>
       <p>Встроенный словарь работает офлайн. При поиске или подготовке новой карточки приложение может отправить введённое слово, короткую фразу, префикс или производный запрос внешним сервисам:</p>
       <ul>
@@ -143,20 +92,20 @@
       <p>Сетевой запрос может автоматически начаться после короткой задержки при вводе на экране добавления, ещё до нажатия «Сохранить», в том числе после системных действий «Поделиться» или обработки выделенного текста. Провайдеры также видят IP-адрес, User-Agent и другие технические сведения соединения. Не вводите в поиск персональные или конфиденциальные сведения. Передача выполняется по HTTPS и регулируется правилами соответствующих сервисов. VladiKot Studio не получает копию этих запросов на собственный сервер.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>5. Озвучивание и карточки в уведомлениях</h2>
       <p>Плеер набора, виджет и действие «Озвучить» используют выбранный пользователем системный движок синтеза речи Android. Приложение передаёт ему текст слова и выбранных переводов. При установленных локальных голосах озвучивание может работать без сети. Сетевой движок или сетевой голос может передавать этот текст своему провайдеру; такая обработка регулируется настройками и политикой поставщика TTS. Words Widget не записывает микрофон и не отправляет созданное аудио разработчику.</p>
       <p>Карточки в уведомлениях выключены по умолчанию. Разрешение Android <code>POST_NOTIFICATIONS</code> запрашивается только после явного включения. Выбранные наборы, расписание и журнал доставки хранятся локально; содержимое карточки передаётся Android для показа системного уведомления и может быть видно на экране блокировки в соответствии с настройками устройства. Приложение не запрашивает разрешение на точные будильники, поэтому Android может отложить событие. Показ уведомления сам по себе не отправляет слова внешним словарным сервисам или Huawei IAP.</p>
       <p>Для фонового воспроизведения и системных media controls используется foreground-service типа media playback и соответствующее разрешение Android. Media controls также могут показывать текущее слово, перевод и название набора на экране блокировки. Видимость системных уведомлений и media controls регулируется настройками Android и устройства.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>6. Отсутствие рекламы и аналитики разработчика</h2>
       <p>Words Widget не содержит рекламных SDK, не выполняет рекламных запросов и не показывает объявления — ни во Free, ни в Pro, ни в приложении, ни в виджете, ни в уведомлениях. Сборка не запрашивает рекламный идентификатор Android.</p>
       <p>Разработчик не использует собственную продуктовую аналитику, систему отчётов о сбоях или сервер технической телеметрии. Это не относится к обработке данных системным резервным копированием Android, выбранным TTS-провайдером, онлайн-словарными сервисами и Huawei AppGallery/HMS Core, описанной в других разделах.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>7. Покупка Pro через Huawei AppGallery</h2>
       <p>Пользователь может разблокировать «Pro навсегда» одной нерасходуемой покупкой без подписки. Оформление заказа, Huawei ID и оплату обрабатывают Huawei AppGallery и HMS Core по правилам Huawei.</p>
       <p>При каждом запуске приложения выполняется проверка владения нерасходуемым товаром через Huawei IAP. Для выдачи и восстановления Pro приложение получает от Huawei сведения о товаре, покупке и владении. Подписанный документ <a href="https://developer.huawei.com/consumer/en/doc/HMSCore-References/inapppurchasedata-0000001050137635">InAppPurchaseData</a> может содержать идентификаторы приложения, package, товара, заказа и транзакции, purchase token, состояние и время покупки, цену, валюту, способ оплаты и другие поля покупки. При создании запроса Words Widget также передаёт случайный UUID в поле <code>developerPayload</code>, чтобы связать ответ с текущей покупкой.</p>
@@ -165,33 +114,33 @@
       <p>Согласно <a href="https://developer.huawei.com/consumer/pt/doc/HMS-Guides/iap-personal-data-process-v4">информации Huawei об обработке данных IAP</a>, Huawei может хранить сведения о покупке до семи лет с учётом применимого законодательства; данные, позволяющие связать покупку с пользователем, удаляются Huawei после успешного удаления Huawei ID в порядке, описанном Huawei.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>8. Хранение и удаление</h2>
       <p>Локальные данные хранятся до действий пользователя. Раздел «Удалённые» — это восстанавливаемая корзина, а не окончательное удаление: карточки сохраняют источник, прогресс и выбранные переводы. Пользователь может восстановить их или выбрать «Удалить навсегда».</p>
       <p>Удалить остальные локальные данные можно через системное действие Android «Очистить хранилище» либо удалив приложение. Резервные копии и данные, обработанные внешними провайдерами, удаляются по их правилам и срокам. По вопросам данных внешнего сервиса следует обращаться к соответствующему провайдеру.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>9. Передача и защита</h2>
       <p>Разработчик не продаёт пользовательские данные. Сетевые запросы выполняются по HTTPS и ограничены сценариями, описанными выше. Приложение не запрашивает контакты, геолокацию, камеру, микрофон или доступ ко всем файлам.</p>
       <p>В зависимости от страны пользователя и инфраструктуры внешнего сервиса сведения сетевого запроса могут обрабатываться в другой стране. VladiKot Studio не управляет местом и сроками обработки данных независимыми сервисами.</p>
     </section>
 
-    <section id="rights">
+    <section class="document-section" id="rights">
       <h2>10. Права пользователя и обращения</h2>
       <p>Пользователь контролирует локальные данные непосредственно в приложении и настройках Android: может удалить карточки окончательно, очистить хранилище приложения или удалить приложение. Системные резервные копии и данные независимых сервисов управляются по правилам соответствующих поставщиков.</p>
       <p>По вопросам конфиденциальности, доступа, исправления, удаления или ограничения обработки данных обратитесь по адресу <a href="mailto:support@vladikot.com">support@vladikot.com</a>. Поскольку у приложения нет аккаунта и собственного backend, VladiKot Studio обычно не располагает данными, которые можно сопоставить с конкретным пользователем. Не отправляйте в обращении пароль Huawei ID, банковские реквизиты или другие секреты.</p>
     </section>
 
-    <section>
+    <section class="document-section">
       <h2>11. Изменения политики</h2>
       <p>При изменении функций, SDK, внешних сервисов или обработки данных политика будет обновлена. Дата редакции указывается в начале документа.</p>
     </section>
 
-    <section id="english" lang="en">
-      <p class="edition">English version</p>
+    <section class="document-section" id="english" lang="en">
+      <p class="edition-mark">English version</p>
       <h2>Words Widget Privacy Policy</h2>
-      <p class="meta">AppGallery version 1.2.x · Effective date: August 22, 2026</p>
+      <p class="document-meta">AppGallery version 1.2.x · Effective date: August 22, 2026</p>
 
       <h3>Scope</h3>
       <div class="notice">
@@ -241,7 +190,10 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">© 2026 VladiKot Studio</div>
+    <div class="container footer-grid">
+      <p class="legal">© 2026 VladiKot Studio</p>
+      <a href="mailto:support@vladikot.com">support@vladikot.com</a>
+    </div>
   </footer>
 </body>
 </html>

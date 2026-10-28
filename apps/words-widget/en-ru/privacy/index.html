@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Политика конфиденциальности Words Widget для Android и RuStore. Локальные данные, разрешения, сторонние сервисы и контакт поддержки.">
-  <meta name="theme-color" content="#f4f8f6">
+  <meta name="theme-color" content="#faf7f0">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:title" content="Политика конфиденциальности Words Widget — VladiKot Studio">
@@ -16,91 +16,41 @@
   <link rel="icon" href="/assets/favicon-48.png" sizes="48x48" type="image/png">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <style>
-    :root {
-      color-scheme: light;
-      --ink: #101820;
-      --muted: #52616a;
-      --paper: #ffffff;
-      --bg: #eef5f2;
-      --teal: #007d74;
-      --teal-soft: #d9f1ed;
-      --line: #d7e2de;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background:
-        radial-gradient(circle at 95% 0%, rgba(85, 222, 212, .20), transparent 27rem),
-        var(--bg);
-      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-    a { color: var(--teal); }
-    .skip-link { position: absolute; left: -9999px; }
-    .skip-link:focus { left: 16px; top: 12px; z-index: 10; padding: 10px 14px; background: white; }
-    .site-header {
-      border-bottom: 1px solid var(--line);
-      background: rgba(255, 255, 255, .88);
-      backdrop-filter: blur(16px);
-    }
-    .header-inner, .document, .footer-inner { width: min(960px, calc(100% - 40px)); margin: 0 auto; }
-    .header-inner { display: flex; align-items: center; justify-content: space-between; min-height: 78px; }
-    .brand { color: var(--ink); font-size: 20px; font-weight: 800; text-decoration: none; }
-    .brand small { display: block; color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
-    nav { display: flex; gap: 22px; }
-    nav a { color: var(--ink); font-weight: 650; text-decoration: none; }
-    .document { margin-top: 38px; margin-bottom: 56px; padding: clamp(28px, 6vw, 68px); border: 1px solid var(--line); border-radius: 32px; background: var(--paper); box-shadow: 0 24px 70px rgba(27, 54, 48, .10); }
-    .edition { margin: 0 0 12px; color: var(--teal); font-size: 13px; font-weight: 800; letter-spacing: .10em; text-transform: uppercase; }
-    h1 { margin: 0; overflow-wrap: anywhere; font-size: clamp(32px, 7vw, 66px); line-height: 1.02; letter-spacing: -.04em; }
-    .meta { margin: 18px 0 0; color: var(--muted); }
-    section { padding-top: 34px; }
-    h2 { margin: 0 0 12px; font-size: clamp(24px, 4vw, 32px); line-height: 1.2; }
-    p { margin: 10px 0; }
-    ul { margin: 12px 0; padding-left: 24px; }
-    li + li { margin-top: 7px; }
-    .notice { padding: 20px 24px; border-left: 5px solid var(--teal); border-radius: 14px; background: var(--teal-soft); }
-    code { padding: 2px 6px; border-radius: 6px; background: #eef3f1; font-size: .92em; }
-    .site-footer { border-top: 1px solid var(--line); background: #e6efeb; }
-    .footer-inner { padding: 30px 0 42px; color: var(--muted); font-size: 14px; }
-    @media (max-width: 640px) {
-      h1 { font-size: clamp(23px, 7vw, 30px); }
-      nav { display: none; }
-      .document { width: calc(100% - 20px); margin-top: 10px; padding: 28px 20px; border-radius: 22px; }
-    }
-    </style>
+  <link rel="stylesheet" href="/assets/styles.css?v=20261028-2">
   <link rel="stylesheet" href="/assets/navigation.css?v=20261028-1">
 </head>
 <body>
   <a class="skip-link" href="#main-content">К содержанию</a>
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="/">VladiKot Studio<small>Words Widget EN↔RU</small></a>
-      <nav aria-label="Основная навигация">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="VladiKot Studio — главная">
+        <span class="brand-symbol"><img src="/assets/vladikot-mark-primary.png" alt="" width="46" height="46"></span>
+        <span class="brand-copy"><strong>VladiKot Studio</strong><small>Words Widget EN↔RU</small></span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
         <a href="/">Главная</a>
         <a href="mailto:support@vladikot.com">Поддержка</a>
       </nav>
     </div>
   </header>
   <main class="document" id="main-content">
-    <header>
-      <p class="edition">Приложение · Words Widget EN↔RU · Android · RuStore</p>
+    <header class="document-header">
+      <p class="edition-mark">Приложение · Words Widget EN↔RU · Android · RuStore</p>
       <h1>Политика конфиденциальности Words Widget</h1>
-      <p class="meta">Редакция для версии 2.0 от 28 октября 2026 года</p>
+      <p class="document-meta">Редакция для версии 2.0 от 28 октября 2026 года</p>
     </header>
-    <section aria-labelledby="section-1">
+    <section class="document-section" aria-labelledby="section-1">
       <h2 id="section-1">1. О приложении</h2>
       <p>Эта политика относится к Android-приложению Words Widget для английского и русского языков, распространяемому через RuStore: com.wordswidget.android.</p>
       <p>Приложение выпускается под брендом VladiKot Studio. Связаться с нами по вопросам конфиденциальности можно по адресу <a href="mailto:support@vladikot.com">support@vladikot.com</a>.</p>
     </section>
-    <section aria-labelledby="section-2">
+    <section class="document-section" aria-labelledby="section-2">
       <h2 id="section-2">2. Что мы не собираем</h2>
       <p>Words Widget не требует отдельной регистрации и не использует собственный сервер для хранения пользовательских слов, наборов или прогресса. Мы не получаем эти данные автоматически и не формируем на своём сервере профили пользователей.</p>
       <p>В приложении нет рекламы, рекламных SDK и собственной системы аналитики разработчика. Мы не продаём пользовательские данные и не используем содержимое словаря для рекламы.</p>
       <p>Это не исключает обработку данных системными службами Android и сторонними сервисами, описанными ниже.</p>
     </section>
-    <section aria-labelledby="section-3">
+    <section class="document-section" aria-labelledby="section-3">
       <h2 id="section-3">3. Что хранится на устройстве</h2>
       <p>Для работы приложения на устройстве сохраняются:</p>
       <ul>
@@ -113,37 +63,40 @@
       </ul>
       <p>Эти данные нужны для работы приложения и сами по себе не отправляются разработчику.</p>
     </section>
-    <section aria-labelledby="section-4">
+    <section class="document-section" aria-labelledby="section-4">
       <h2 id="section-4">4. Словарь и озвучивание</h2>
       <p>Встроенный словарь и работа с сохранёнными карточками доступны без интернета.</p>
       <p>Дополнительный онлайн-поиск может передавать введённое слово, фразу, часть слова и языковую пару сервисам MyMemory, Free Dictionary API и Datamuse. Запрос может выполняться при вводе на экране добавления, до сохранения карточки, в том числе после передачи текста из другого приложения. Провайдер получает запрос и технические сведения соединения, включая IP-адрес. Не вводите в онлайн-поиск конфиденциальные сведения.</p>
       <p>Озвучивание использует выбранный системный движок Android и передаёт ему текст слова и перевода. С установленными локальными голосами оно может работать без сети. Сетевой голос может передавать текст своему провайдеру по его правилам конфиденциальности. Words Widget не записывает микрофон.</p>
     </section>
-    <section aria-labelledby="section-5">
+    <section class="document-section" aria-labelledby="section-5">
       <h2 id="section-5">5. Виджеты, уведомления и файлы</h2>
       <p>Виджеты и уведомления могут показывать слова и переводы на экране устройства. Уведомления с карточками включаются пользователем. Текст текущей карточки и сведения плеера могут быть видны на экране блокировки в зависимости от настроек Android.</p>
       <p>Импорт и экспорт выполняются через системный выбор файла. Экспортированная коллекция может содержать слова, наборы, прогресс и восстанавливаемые удалённые записи. Если вы выбираете облачное хранилище или передаёте файл другому человеку, его содержимое становится доступно выбранному получателю. Приложение не отправляет экспорт разработчику.</p>
     </section>
-    <section aria-labelledby="section-6">
+    <section class="document-section" aria-labelledby="section-6">
       <h2 id="section-6">6. Покупка Pro и RuStore</h2>
       <p>Покупку Pro и восстановление доступа обрабатывает RuStore Pay. Приложение получает сведения, необходимые для проверки покупки. Содержимое словаря и названия наборов в платёжный SDK не передаются.</p>
       <p>Компоненты RuStore могут обрабатывать данные покупки, идентификаторы, сведения об устройстве и приложении, технические метрики и диагностику. Технический обмен возможен при инициализации SDK и проверке покупок, а не только во время оплаты.</p>
       <p>Реквизиты карты, защитный код и другие данные, вводимые в платёжной форме, обрабатываются RuStore и платёжными провайдерами. Код Words Widget и разработчик не получают реквизиты карты. Применяется <a href="https://www.rustore.ru/help/legal/privacy-policy-users">политика конфиденциальности RuStore</a>.</p>
     </section>
-    <section aria-labelledby="section-7">
+    <section class="document-section" aria-labelledby="section-7">
       <h2 id="section-7">7. Резервные копии и удаление</h2>
       <p>При включённом резервном копировании Android данные приложения могут попадать в системную облачную копию или переноситься на другое устройство. Локальный кеш доступа Pro и технический журнал доставки карточек исключены из резервного копирования.</p>
       <p>Перемещение карточки в «Удалённые» сохраняет возможность восстановления. Для окончательного удаления используйте соответствующее действие в приложении. Удалить остальные локальные данные можно через настройки хранилища Android или удалением приложения.</p>
       <p>Ранее экспортированные файлы и системные резервные копии удаляются отдельно. Сроки хранения данных сторонними сервисами определяются их правилами.</p>
     </section>
-    <section aria-labelledby="section-8">
+    <section class="document-section" aria-labelledby="section-8">
       <h2 id="section-8">8. Обращения и изменения политики</h2>
       <p>Если вы пишете в поддержку, нам поступают адрес отправителя, текст письма и приложенные материалы. Они используются для рассмотрения обращения. Не отправляйте пароли, платёжные реквизиты и другие сведения, не нужные для решения вопроса.</p>
       <p>При изменении обработки данных политика обновляется. Вопросы можно направлять на <a href="mailto:support@vladikot.com">support@vladikot.com</a>.</p>
     </section>
   </main>
   <footer class="site-footer">
-    <div class="footer-inner">© 2026 VladiKot Studio · <a href="mailto:support@vladikot.com">support@vladikot.com</a></div>
+    <div class="container footer-grid">
+      <p class="legal">© 2026 VladiKot Studio</p>
+      <a href="mailto:support@vladikot.com">support@vladikot.com</a>
+    </div>
   </footer>
 </body>
 </html>

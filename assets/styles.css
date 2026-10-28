@@ -311,9 +311,9 @@ h1 {
 /* Privacy document */
 
 .document {
-  width: min(calc(100% - (var(--gutter) * 2)), 760px);
+  width: min(calc(100% - (var(--gutter) * 2)), var(--content));
   margin: 0 auto;
-  padding-top: clamp(64px, 10vw, 96px);
+  padding-top: clamp(48px, 8vw, 72px);
   padding-bottom: 56px;
 }
 
@@ -322,7 +322,7 @@ h1 {
 }
 
 .document-header .label,
-.document-header .edition-mark {
+.document .edition-mark {
   margin: 0 0 18px;
   color: var(--muted);
   font-size: 12px;
@@ -353,6 +353,19 @@ h1 {
   margin-bottom: 18px;
   font-size: 24px;
   letter-spacing: -0.02em;
+}
+
+.document-section h3 {
+  margin: 28px 0 16px;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 20px;
 }
 
 .document-section p,
@@ -436,7 +449,7 @@ code {
   }
 
   .document h1 {
-    font-size: clamp(34px, 11vw, 44px);
+    font-size: clamp(26px, 7vw, 32px);
   }
 }
 
